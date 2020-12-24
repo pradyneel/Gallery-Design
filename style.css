@@ -1,0 +1,275 @@
+
+
+#profile {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 156px;
+    height: 156px;
+    border-radius: 16px;
+}
+
+#name{
+    text-align: center;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    color: #4E5150;
+    margin-bottom: 0.5px;;
+}
+
+#sec
+{
+    text-align: center;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+    color: #A9A9A9;
+}
+
+#flex{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+}
+
+#count{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+
+    color: #4E5150;
+
+}
+
+div div{
+    margin: 15px;
+    background: #E5E5E5;
+    width: 100px;
+    border-radius: 12px;
+}
+
+#img1{
+    display: flex;
+    border-radius: 12px;
+    width: auto;
+
+    justify-content: center;
+}
+
+#plant
+{
+    
+    width: 299px;
+    height: 299px;
+    margin: 10px;
+    border-radius: 12px;
+}
+
+#tsoa
+{
+    height: 299px;
+    width: 629px;
+    border-radius: 12px;
+    margin: 10px;
+}
+
+#img2
+{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+    border-radius: 12px;
+    justify-content: center;
+    
+}
+
+#tub
+{
+    width: auto;
+    height: 299px;
+    border-radius: 12px;
+    margin: 10px;
+    grid-column: 2/5;
+    grid-row: 1;
+    align-items: flex-start;
+}
+
+#lamp{
+    width: auto;
+    height: 630px;
+    border-radius: 12px;
+    grid-column: 4/5;
+    grid-row: 1/6;
+    margin: 10px;
+    align-items: flex-end;
+    margin-left: 40px;
+}
+
+
+#flower
+{
+    width: 299px;
+    height: 299px;
+    border-radius: 12px;
+    grid-column: 2;
+    grid-row: 2;
+}
+#wood
+{
+    width: 299px;
+    height: 299px;
+    border-radius: 12px;
+    grid-column: 3;
+    grid-row: 2;
+}
+
+@media only screen and (max-width: 600px)
+{
+    #profile {
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+        width: 101.76px;
+        height: 101.76px;
+        border-radius: 16px;
+    }
+    
+    #name{
+        text-align: center;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 17px;
+        color: #4E5150;
+    }
+    
+    #sec
+    {
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 10px;
+        line-height: 12px;
+        text-align: center;
+
+        color: #A9A9A9;
+    }
+    
+    #flex{
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 30px;
+    }
+    
+    #count{
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 15px;
+        text-align: center;
+
+        color: #4E5150;
+
+    
+    }
+    
+    div div{
+        margin: 15px;
+        background: #E5E5E5;
+        width: 100px;
+        border-radius: 12px;
+    }
+    
+        
+    #img1{
+        display: flex;
+        border-radius: 12px;
+        width: auto;
+        justify-content: center;
+    }
+
+    #plant
+    {
+        
+        width: 109.32px;
+        height: 109.52px;
+        margin: 10px;
+        border-radius: 12px;
+    }
+
+    #tsoa
+    {
+        width: 229.98px;
+        height: 109.52px;
+        border-radius: 12px;
+        margin: 10px;
+    }
+
+    #img2
+    {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        gap: 10px;
+        grid-auto-rows: minmax(100px, auto);
+        border-radius: 12px;
+        justify-content: center;
+        
+    }
+
+    #tub
+    {
+        width: 229.25px;
+        height: 109.52px;
+        border-radius: 12px;
+        margin: 10px;
+        grid-column: 2/5;
+        grid-row: 1;
+        align-items: flex-start;
+    }
+
+    #lamp{
+        width: 108.59px;
+        height: 230.76px;
+        border-radius: 12px;
+        grid-column: 4/5;
+        grid-row: 1/6;
+        margin: 10px;
+        align-items: flex-end;
+        margin-left: 40px;
+    }
+
+
+    #flower
+    {
+        width: 109.32px;
+        height: 109.52px;
+        border-radius: 12px;
+        grid-column: 2;
+        grid-row: 2;
+    }
+    #wood
+    {
+        width: 109.32px;
+        height: 109.52px;
+        border-radius: 12px;
+        grid-column: 3;
+        grid-row: 2;
+    }
+}
